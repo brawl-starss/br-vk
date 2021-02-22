@@ -6,7 +6,7 @@ login = input(colored('Введите логин:', 'yellow'))
 print(colored('Брут запущен !!!', 'green'))
 headers = {'user_agent': user}
 i=0
-UsersId = open("baz.txt", "r")
+UsersId = open("baza.txt", "r")
 UsersId2 = set()
 for line in UsersId:
     UsersId2.add(line.strip())
