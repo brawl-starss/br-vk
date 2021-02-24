@@ -35,6 +35,7 @@ try:
                 print(colored(f'Пароль: {user} Не верно!', 'red'))
 
     print(colored('Брут закончен !!!', 'red'))
+    input()
 except:
     os.system('python3 br-vk.py')
 
